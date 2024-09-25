@@ -1,0 +1,162 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .title {
+    background-image: url('/img/DALL·E\ 2024-09-25\ 09.50.09\ -\ A\ modern\ logo\ for\ the\ title\ \'Mente\ Maestra\ del\ Código\'.\ The\ design\ should\ evoke\ a\ blend\ of\ intellect\ and\ programming\ mastery\,\ featuring\ sleek\,\ geometr.webp');
+    background-size: 20px 20px; /* ajusta el tamaño de la imagen */
+    background-repeat: no-repeat;
+    padding-left: 30px; /* ajusta el espacio entre la imagen y el título */
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #242424;
+  }
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: #333;
+    border-radius: 0 0 4px 4px;
+
+  }
+  
+  h1 {
+    margin-right: 20px;
+    color: #f9f9f9;
+    margin: 20PX;
+  }
+p {color: #fff;
+
+  }
+  nav {
+    display: flex;
+    justify-content: flex-end; /* Alinea la navegación a la derecha */
+  }
+  
+  nav li {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  
+  /* Estilos para la sección de inicio */
+  #home {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+    margin: 0px 20px; 
+    background-color: #242424;
+    font-size: 1.2em; /* Aumenta el tamaño del texto en un 20% */
+    font-weight: bold;
+  }
+  
+  #home h2 {
+    margin-top: 0;
+    color: #fff;
+  }
+  
+  
+  #about {
+    padding: 20px;
+    margin: 20px 50px; 
+    border-radius: 10px ;
+    border: 1px solid #ffffff;
+   background-image: url(/img/fondo.jpg);
+    font-size: 1.2em; /* Aumenta el tamaño del texto en un 20% */
+    font-weight: bold;
+  }
+  
+  #about h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
+  }
+  #about h3 {
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
+  }
+  .timeline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .timeline li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .timeline li:last-child {
+    border-bottom: none;
+  }
+  
+
+  #applications {
+    background-image: url(/img/fondo.jpg);
+    padding: 20px;
+    margin: 20px 50px; 
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    font-size: 1.2em; /* Aumenta el tamaño del texto en un 20% */
+    font-weight: bold;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    border: 1px solid #666;
+    border-radius: 10px;
+    background-color: #242424;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    color: #fff;
+  }
+  
+  /* Estilos para el footer */
+  footer {
+    background-color: #222222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Estilos para pantalla pequeña (mobile) */
+  @media (max-width: 768px) {
+    header {
+      padding: 10px; /* Reducir padding para mobile */
+    }
+    header h1 {
+      font-size: 18px; /* Tamaño de fuente para mobile */
+    }
+    nav {
+      flex-direction: column; /* Cambia a diseño en columna para mobile */
+    }
+    nav a {
+      margin: 10px 0; /* Espacio entre enlaces en mobile */
+      font-size: 16px; /* Reducir tamaño de fuente para mobile */
+    }
+  }
